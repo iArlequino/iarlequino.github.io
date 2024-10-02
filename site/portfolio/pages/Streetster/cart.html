@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Кодировка -->
+	<meta charset="UTF-8">
+
+	<!-- Запрет зума, cover для телефонов с бровью-->
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+
+	<!-- Отключение вызова текстовых номеров -->
+	<meta name="format-detection" content='telephone=no' />
+
+	<meta name="description" content="Магазин велосипедов и обмундирования STREETSTER" />
+	<meta name="keywords" content="Типы велосипедов, новости, обмундирование" />
+
+	<meta name="Author" content="-" />
+	<meta name="Copyright" content="-" />
+	<meta name="Address" content="-" />
+
+
+	<link rel="shortcut icon" href="resources/favicon.png" />
+	<link rel="stylesheet" href="css/cart.min.css" />
+	<title>Вело-магазин STREETSTER. Типы велосипедов, новости, обмундирование.</title>
+</head>
+
+<body>
+	<!-- <svg class="">
+		<use xlink:href="img/sprite.svg#название файла"></use>
+	</svg> -->
+	<div class="wrapper">
+		<header class="header">
+	<div class="nav">
+		<div class='container'>
+			<div class="nav__body">
+				<a href="index.html" class="nav__logo logo" aria-label="Перейти на главную страницу">
+					<img src="img/header/logo.png" alt="Streetster" aria-label="logo">
+				</a>
+				<div data-da=".nav__body,767,last" class="nav__form-wrapper">
+					<form action="/" class="nav__form">
+						<button class="nav__submit btn-reset" type="submit" aria-label="Найти">
+							<svg class="">
+								<use xlink:href="img/sprite.svg#search"></use>
+							</svg>
+						</button>
+						<input type="search" class="nav__search" required aria-label="Поиск по сайту">
+					</form>
+					<div class="nav__search-field search-field">
+						<ul class="search-field__list" hidden>
+							<li>
+								<article class="search-field__item sf-item">
+									<div class="sf-item">
+										<div class="sf-item__image">
+											<a href=" item.html" class="sf-item__link">
+												<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
+											</a>
+										</div>
+										<div class="sf-item__info">
+											<a href=" item.html" class="sf-item__link">
+												<h3 class="sf-item__name">STEETSTER NATHAN</h3>
+												<span class="sf-item__subinfo">12000 ₴</span>
+											</a>
+										</div>
+									</div>
+								</article>
+							</li>
+							<li class="search-field__item sf-item">
+								<article class="sf-item">
+									<div class="sf-item__image">
+										<a href="news.html" class="sf-item__link">
+											<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
+										</a>
+									</div>
+									<div class="sf-item__info">
+										<a href="news.html" class="sf-item__link">
+											<h3 class="sf-item__name">НОВОСТИ</h3>
+											<span class="sf-item__subinfo">Новый велосипед Streetster Nathan</span>
+										</a>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav__icon-btns">
+					<div class="nav__cart ">
+						<button class="nav__cart-btn" aria-label="Открыть корзину">
+							<svg class="">
+								<use xlink:href="img/sprite.svg#cart"></use>
+							</svg>
+						</button>
+					</div>
+					<button class="nav__burger burger" aria-label="Открыть меню">
+						<span class="burger__upper-line"></span>
+						<span class="burger__middle-line"></span>
+						<span class="burger__outer-line"></span>
+					</button>
+				</div>
+			</div>
+			<div class="cart">
+				<span class="cart__close-field"></span>
+				<div class="cart__wrapper">
+					<div class="cart__quantity">
+						В корзине <span class="cart__quantity-numb">нет</span> <span class="cart__word">товара</span>
+					</div>
+					<ul class="cart__list">
+
+					</ul>
+					<div class="cart__sum">
+						<span>Итого: </span>
+						<span class="sum">0 ₴</span>
+					</div>
+					<a href="cart.html" class="cart__btn-order btn-link-black">Заказать</a>
+				</div>
+			</div>
+			<div class="nav__menu menu">
+				<span class="menu__close-field"></span>
+				<div class="menu__wrapper">
+					<div class="menu__lang-btns">
+						<button class="menu__lang-btn btn-reset">RU</button>
+						<span>/</span>
+						<button class="menu__lang-btn btn-reset">EN</button>
+					</div>
+					<nav>
+						<ul class="menu__list-category">
+							<li>
+								<a href="category-road.html" class="menu__link menu__link--bold">ROAD SERIES</a>
+							</li>
+							<li>
+								<a href="category-street.html" class="menu__link menu__link--bold">STREET SERIES</a>
+							</li>
+							<li>
+								<a href="category-offroad.html" class="menu__link menu__link--bold">OFFROAD SERIES</a>
+							</li>
+						</ul>
+						<ul class="menu__list">
+							<li>
+								<a href="news.html" class="menu__link">Новости</a>
+							</li>
+							<li>
+								<a href="about-us&contacts.html" class="menu__link">О нас</a>
+							</li>
+							<li>
+								<a href="about-us&contacts.html#contacts" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+						<ul class="menu__list menu__list-social">
+							<li>
+								<a href="https://www.instagram.com/" class="menu__link menu__link--inst" aria-label="Интсаграм">
+									<svg class="">
+										<use xlink:href="img/sprite.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/" class="menu__link  menu__link--fb" aria-label="Фейсбук">
+									<svg class="">
+										<use xlink:href="img/sprite.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="main">
+	<section class="order">
+		<div class="order__container container">
+			<h1 class="order__title main-title">
+				Оформление заказа
+			</h1>
+			<div class="order__columns">
+				<div class="order__order-info order-info">
+					<div class="order-info__quantity">
+						В корзине <span class="order-info__quantity-numb">нет товара</span>
+					</div>
+					<ul class="order-info__list">
+
+					</ul>
+					<div class="order-info__free-delivery">Доставка: бесплатно</div>
+					<div class="order-info__sum">
+						Итого:
+						<span class="order-info__summ"></span>
+					</div>
+					<div class="order-info__btns">
+						<a href="index.html" class="order-info__btn-order btn-link-transparent">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+						<button class="order-info__btn-order btn-link-transparent" form='contact-form' type="submit">ОФОРМИТЬ ЗАКАЗ</button>
+					</div>
+				</div>
+				<div class="order__contact ">
+					<form action="mail.php" id='contact-form' class="order__form">
+						<div class="cf-top">
+							<h2 class="cf-top__title ">
+								Контактная информация
+							</h2>
+							<div class="cf-top__wrapper">
+								<label class="cf-top__label">
+									<span class="cf-top__subtitle sub-title">Имя</span>
+									<input type="text" class="cf-top__input input" name="Имя" required>
+								</label>
+								<label class="cf-top__label">
+									<span class="cf-top__subtitle sub-title">Фамилия</span>
+									<input type="text" class="cf-top__input input" name="Фамилия" required>
+								</label>
+								<label class="cf-top__label">
+									<span class="cf-top__subtitle sub-title">Номер телефона</span>
+									<input type="tel" class="cf-top__input cf-top__input--tel input" name="Номер телефона" required>
+								</label>
+								<label class="cf-top__label">
+									<span class="cf-top__subtitle sub-title">E-mail</span>
+									<input type="email" class="cf-top__input cf-top__input-mail input" name="E-mail" required>
+								</label>
+							</div>
+						</div>
+						<div class="cf-bottom">
+							<h2 class="cf-bottom__title">
+								Оплата и доставка
+							</h2>
+							<div class="cf-bottom__wrapper">
+								<div class="cf-bottom__item select-wrap">
+
+									<label class="label">
+										Способ оплаты
+										<select class="select" name="Способ оплаты" required>
+											<option value="">Выбор</option>
+											<option value="Расчёт банковской картой">Расчёт банковской картой</option>
+											<option value="Оплата с помощью электронного кошелька">Оплата с помощью электронного кошелька</option>
+											<option value="Оплата через почту и другие">Оплата через почту и другие</option>
+											<option value="Расчёт наличными при получении товара">Расчёт наличными при получении товара</option>
+										</select>
+									</label>
+								</div>
+								<div class="cf-bottom__item select-wrap">
+									<label class="label">
+										Споспоб получения
+										<select class="select" name="Способ получения" required>
+											<option value="">Выбор</option>
+											<option value="УкрПочта">УкрПочта</option>
+											<option value="Самовызов в магазин 'STREETSTER'">Самовызов в магазин "STREETSTER"</option>
+											<option value="Новая Почта">Новая Почта</option>
+											<option value="Переполнение">Переполнение</option>
+											<option value="Переполнение">Переполнение</option>
+											<option value="Переполнение">Переполнение</option>
+										</select>
+									</label>
+								</div>
+								<div class="cf-bottom__item">
+									<label class="cf-bottom__label">
+										<span class="cf-bottom__subtitle sub-title">Город</span>
+										<input type="text" class="cf-bottom__input input" name="Город" required>
+									</label>
+								</div>
+								<div class="cf-bottom__item">
+									<label class="cf-bottom__label">
+										<span class="cf-bottom__subtitle sub-title">Адрес доставки</span>
+										<input type="text" class="cf-bottom__input input" name="Адрес доставки" required>
+									</label>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+		<footer class="footer">
+			<p class="copy">© STREETSTER — Все права защищены </p>
+		</footer>
+		<div id="snackbar-form-submit"></div>
+	</div>
+	<script src="js/main.js"></script>
+	<script src="js/cart.js"></script>
+
+</body>
+
+</html>

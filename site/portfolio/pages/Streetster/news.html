@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Кодировка -->
+	<meta charset="UTF-8">
+
+	<!-- Запрет зума, cover для телефонов с бровью-->
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+
+	<!-- Отключение вызова текстовых номеров -->
+	<meta name="format-detection" content='telephone=no' />
+
+	<meta name="description" content="Магазин велосипедов и обмундирования STREETSTER" />
+	<meta name="keywords" content="Типы велосипедов, новости, обмундирование" />
+
+	<meta name="Author" content="-" />
+	<meta name="Copyright" content="-" />
+	<meta name="Address" content="-" />
+
+
+	<link rel="shortcut icon" href="resources/favicon.png" />
+	<link rel="stylesheet" href="css/news.min.css" />
+	<title>Велоспорт - новости, тексты, интервью, фото и результаты. </title>
+</head>
+
+<body>
+	<!-- <svg class="">
+		<use xlink:href="img/sprite.svg#название файла"></use>
+	</svg> -->
+	<div class="wrapper">
+		<header class="header">
+	<div class="nav">
+		<div class='container'>
+			<div class="nav__body">
+				<a href="index.html" class="nav__logo logo" aria-label="Перейти на главную страницу">
+					<img src="img/header/logo.png" alt="Streetster" aria-label="logo">
+				</a>
+				<div data-da=".nav__body,767,last" class="nav__form-wrapper">
+					<form action="/" class="nav__form">
+						<button class="nav__submit btn-reset" type="submit" aria-label="Найти">
+							<svg class="">
+								<use xlink:href="img/sprite.svg#search"></use>
+							</svg>
+						</button>
+						<input type="search" class="nav__search" required aria-label="Поиск по сайту">
+					</form>
+					<div class="nav__search-field search-field">
+						<ul class="search-field__list" hidden>
+							<li>
+								<article class="search-field__item sf-item">
+									<div class="sf-item">
+										<div class="sf-item__image">
+											<a href=" item.html" class="sf-item__link">
+												<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
+											</a>
+										</div>
+										<div class="sf-item__info">
+											<a href=" item.html" class="sf-item__link">
+												<h3 class="sf-item__name">STEETSTER NATHAN</h3>
+												<span class="sf-item__subinfo">12000 ₴</span>
+											</a>
+										</div>
+									</div>
+								</article>
+							</li>
+							<li class="search-field__item sf-item">
+								<article class="sf-item">
+									<div class="sf-item__image">
+										<a href="news.html" class="sf-item__link">
+											<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
+										</a>
+									</div>
+									<div class="sf-item__info">
+										<a href="news.html" class="sf-item__link">
+											<h3 class="sf-item__name">НОВОСТИ</h3>
+											<span class="sf-item__subinfo">Новый велосипед Streetster Nathan</span>
+										</a>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav__icon-btns">
+					<div class="nav__cart ">
+						<button class="nav__cart-btn" aria-label="Открыть корзину">
+							<svg class="">
+								<use xlink:href="img/sprite.svg#cart"></use>
+							</svg>
+						</button>
+					</div>
+					<button class="nav__burger burger" aria-label="Открыть меню">
+						<span class="burger__upper-line"></span>
+						<span class="burger__middle-line"></span>
+						<span class="burger__outer-line"></span>
+					</button>
+				</div>
+			</div>
+			<div class="cart">
+				<span class="cart__close-field"></span>
+				<div class="cart__wrapper">
+					<div class="cart__quantity">
+						В корзине <span class="cart__quantity-numb">нет</span> <span class="cart__word">товара</span>
+					</div>
+					<ul class="cart__list">
+
+					</ul>
+					<div class="cart__sum">
+						<span>Итого: </span>
+						<span class="sum">0 ₴</span>
+					</div>
+					<a href="cart.html" class="cart__btn-order btn-link-black">Заказать</a>
+				</div>
+			</div>
+			<div class="nav__menu menu">
+				<span class="menu__close-field"></span>
+				<div class="menu__wrapper">
+					<div class="menu__lang-btns">
+						<button class="menu__lang-btn btn-reset">RU</button>
+						<span>/</span>
+						<button class="menu__lang-btn btn-reset">EN</button>
+					</div>
+					<nav>
+						<ul class="menu__list-category">
+							<li>
+								<a href="category-road.html" class="menu__link menu__link--bold">ROAD SERIES</a>
+							</li>
+							<li>
+								<a href="category-street.html" class="menu__link menu__link--bold">STREET SERIES</a>
+							</li>
+							<li>
+								<a href="category-offroad.html" class="menu__link menu__link--bold">OFFROAD SERIES</a>
+							</li>
+						</ul>
+						<ul class="menu__list">
+							<li>
+								<a href="news.html" class="menu__link">Новости</a>
+							</li>
+							<li>
+								<a href="about-us&contacts.html" class="menu__link">О нас</a>
+							</li>
+							<li>
+								<a href="about-us&contacts.html#contacts" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+						<ul class="menu__list menu__list-social">
+							<li>
+								<a href="https://www.instagram.com/" class="menu__link menu__link--inst" aria-label="Интсаграм">
+									<svg class="">
+										<use xlink:href="img/sprite.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/" class="menu__link  menu__link--fb" aria-label="Фейсбук">
+									<svg class="">
+										<use xlink:href="img/sprite.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="main">
+	<h1 class="visually-hidden">Велоспорт - новости, тексты, интервью, фото и результаты. Вело-магазин STREETSTER</h1>
+	<section class="promo">
+		<div class="promo__container container">
+			<span class="promo__last-news">Последняя Новость</span>
+			<h2 class="promo__title main-title">
+				Куда поехать в Киеве?
+			</h2>
+			<a href="post-1.html" class="promo__link btn-link-transparent">ЧИТАТЬ</a>
+		</div>
+	</section>
+	<section class="news">
+		<h2 class="visually-hidden">Последние новости магазина STREETSTER</h2>
+		<div class="news__item">
+			<article class="news__container container">
+				<div class="news__img">
+					<img src="img/news/1n.jpg" alt="Велошлем, сидушка" class="news__image">
+				</div>
+				<div class="news__block">
+					<h2 class="news__title sub-title">
+						Лучшие аксессуары для стрит байков
+					</h2>
+					<time datetime="2020-12-15" class="news__date">15 декабря 2020</time>
+					<p class="news__text text">
+						Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Что путь последний повстречался букв запятых залетают заманивший мир заголовок.
+					</p>
+					<p class="news__text text news__text--flex">
+						Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.
+					</p>
+					<a href="post-2.html" class="news__link btn-link-transparent">ЧИТАТЬ ДАЛЬШЕ</a>
+				</div>
+			</article>
+		</div>
+		<div class="news__item">
+			<article class="news__container container">
+				<div class="news__img">
+					<img src="img/news/2n.jpg" alt="Велосипед" class="news__image">
+				</div>
+				<div class="news__block">
+					<h2 class="news__title sub-title">
+						Как обслуживать свой велосипед?
+					</h2>
+					<time datetime="2020-12-14" class="news__date">14 декабря 2020</time>
+					<p class="news__text text">
+						Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Что путь последний повстречался букв запятых залетают заманивший мир заголовок.
+					</p>
+					<p class="news__text text news__text--flex">
+						Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.
+					</p>
+					<a href="post-3.html" class="news__link btn-link-transparent">ЧИТАТЬ ДАЛЬШЕ</a>
+				</div>
+			</article>
+		</div>
+		<div class="news__item">
+			<article class="news__container container">
+				<div class="news__img">
+					<img src="img/news/3n.jpg" alt="Велосипед" class="news__image">
+				</div>
+				<div class="news__block">
+					<h2 class="news__title sub-title">
+						Безопасноть - это важно!
+					</h2>
+					<time datetime="2020-12-13" class="news__date">13 декабря 2020</time>
+					<p class="news__text text">
+						Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Что путь последний повстречался букв запятых залетают заманивший мир заголовок.
+					</p>
+					<p class="news__text text news__text--flex">
+						Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.
+					</p>
+					<a href="post-4.html" class="news__link btn-link-transparent">ЧИТАТЬ ДАЛЬШЕ</a>
+				</div>
+			</article>
+		</div>
+	</section>
+</main>
+<!--  -->
+		<footer class="footer">
+	<div class="footer__container container">
+		<div class="footer__inner">
+			<a href="index.html" class="footer__logo logo" aria-label="Перейти на главную страницу">
+				<img src="img/logo-footer.png" alt="Логотип 'Streetster'">
+			</a>
+			<div class='acordion__wrapper'>
+				<h2 class='acordion__title acordion-triger'>Категории</h2>
+				<ul class='acordion__body acordion__body--uppercase'>
+					<li class="acordion__item">
+						<a href="category-road.html" class="acordion__link">ROAD SERIES</a>
+					</li>
+					<li class="acordion__item">
+						<a href="category-street.html" class="acordion__link">STREET SERIES</a>
+					</li>
+					<li class="acordion__item">
+						<a href="category-offroad.html" class="acordion__link">OFFROAD SERIES</a>
+					</li>
+				</ul>
+			</div>
+			<div class='acordion__wrapper'>
+				<h2 class='acordion__title acordion-triger'>Информация</h2>
+				<ul class='acordion__body'>
+					<li class="acordion__item">
+						<a href="about-us&contacts.html" class="acordion__link">О нас</a>
+					</li>
+					<li class="acordion__item">
+						<a href="about-us&contacts.html#contacts" class="acordion__link">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class='acordion__wrapper'>
+				<h2 class='acordion__title acordion-triger'>Новости</h2>
+				<ul class='acordion__body'>
+					<li class="acordion__item">
+						<a href="news.html" class="acordion__link">Все новости</a>
+					</li>
+					<li class="acordion__item">
+						<a href="post-1.html" class="acordion__link">Лучшие аксессуары для стрит байков</a>
+					</li>
+					<li class="acordion__item">
+						<a href="post-2.html" class="acordion__link">Куда поехать в Киеве?</a>
+					</li>
+					<li class="acordion__item">
+						<a href="post-3.html" class="acordion__link">Как обслуживать свой велосипед?</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="footer__list-social">
+				<li>
+					<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer__link--inst" aria-label="Инстаграм">
+						<svg class="">
+							<use xlink:href="img/sprite.svg#instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="footer__link--fb" aria-label="Фейсбук">
+						<svg class="">
+							<use xlink:href="img/sprite.svg#facebook"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer__outer copy">
+			© STREETSTER — Все права защищены.
+			<div> Разработка сайта - <a href="https://t.me/ncl_ch" target="_blank" rel="noopener noreferrer" class="footer__link">Черный</a></div>
+		</div>
+	</div>
+	<div id="snackbar-cart">Этот товар уже находиться в корзине!</div>
+	<div id="snackbar-rating">Ваша оценка учтена!</div>
+</footer>
+	</div>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
