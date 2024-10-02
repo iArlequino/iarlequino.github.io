@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+  <head>
+    {% include 'head-meta.njk' %} <meta property="og:image" content="assets/img/cyber-notebook.jpg"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/resources/favicons/apple-icon-57x57.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/resources/favicons/apple-icon-60x60.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/resources/favicons/apple-icon-72x72.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/resources/favicons/apple-icon-76x76.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/resources/favicons/apple-icon-114x114.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/resources/favicons/apple-icon-120x120.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/resources/favicons/apple-icon-144x144.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/resources/favicons/apple-icon-152x152.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/resources/favicons/apple-icon-180x180.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/resources/favicons/android-icon-192x192.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/resources/favicons/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/resources/favicons/favicon-96x96.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/resources/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta
+      name="msapplication-TileImage"
+      content="assets/resources/favicons/ms-icon-144x144.png">
+    <link
+      rel="preload"
+      href="assets/fonts/FuturaPT-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin/>
+    <link
+      rel="preload"
+      href="assets/fonts/FuturaPT-Book.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin/>
+    <link
+      rel="preload"
+      href="assets/fonts/FuturaPT-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin/>
+    <link rel="stylesheet" href="assets/css/main.min.css"/>
+    <title>Mykola Chornyi - Frontend Developer</title>
+  </head>
+  <body class="body">
+    <div class="wrap">
+      {% include 'header.njk' %}
+      <main class="main-content">
+        <section class="hero" id="hero">
+          <div class="hero__container container">
+            <strong class="hero__strong text-reset">
+              Frontend Developer
+            </strong>
+            <div class="hero__columns">
+              <div class="hero__name">
+                Mykola Chornyi
+              </div>
+              <a href="portfolio/" class="hero__portfolio link-reset">
+                portfolio
+                <svg class="hero__arrow">
+                  <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                </svg>
+              </a>
+            </div>
+            <h1 class="hero__heading text-reset">
+              I am Frontend developer with more than a year of practice in the development of
+              SPA using React, Redux, TypeScript and Webpack. I love to learn, and my
+              experience has taught me only one thing, work is the place you learn the most.
+            </h1>
+            <div class="hero__row">
+              <h2 class="hero__subheading text-reset">Latest projects</h2>
+              <ul class="hero__list list-reset">
+                {% for project in projects | reverse %}
+                  {% if loop.index0 < 5 %}
+                    {% if title !== project.shortname %}
+                      <li class="hero__item">
+                        <a href="{{ project.link }}" class="hero__link link-reset" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+                      </li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
