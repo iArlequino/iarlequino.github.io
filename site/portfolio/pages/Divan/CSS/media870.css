@@ -1,0 +1,96 @@
+@media (max-width: 870px) {
+  .WorkTime {
+    display: none;
+  }
+
+  .BuyCall {
+    margin-right: 60px;
+  }
+
+  .Header__bot {
+    padding-top: 100px;
+  }
+
+  .Header__bot::after {
+    top: 4%;
+  }
+
+  .Header__bot::before {
+    top: 4%;
+  }
+
+  .Header__title {
+    white-space: normal;
+  }
+
+  .Services__spis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-areas:
+      "A B"
+      "C D"
+      "E E";
+  }
+
+  .Services__item:last-child {
+    grid-area: E;
+  }
+
+  .BuyCallburg {
+    display: block;
+  }
+
+  .Header__bot::after {
+    top: 5.3%;
+  }
+
+  .Header__bot::before {
+    top: 5.3%;
+  }
+
+  .Furniture__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-template-areas:
+      "A B"
+      "C D";
+  }
+
+  .Furniture__item:last-child {
+    grid-area: D;
+  }
+
+  .WhatWeOffer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-areas:
+      "A B"
+      "C D"
+      "E F"
+      "G H"
+      "I I";
+  }
+
+  .WhatWeOffer__item:last-child {
+    grid-area: I;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__contact {
+    margin-top: 70px;
+    margin-right: 0;
+    order: 2;
+  }
+
+}

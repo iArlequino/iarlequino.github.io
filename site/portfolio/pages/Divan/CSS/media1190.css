@@ -1,0 +1,168 @@
+@media (max-width: 1190px) {
+  .burger {
+    position: fixed;
+    display: block;
+    right: 20px;
+    top: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #FFF;
+    z-index: 100;
+  }
+
+  .NavSpis a:hover {
+    background: none;
+    color: var(--orange);
+  }
+
+  .NavSpis a:active {
+    background: #2F2F2F;
+  }
+
+  .BuyCall:hover {
+    color: var(--orange);
+    text-decoration: underline;
+  }
+
+  .logo {
+    z-index: 90;
+  }
+
+  .tel {
+    z-index: 90;
+  }
+
+  .WorkTime {
+    display: none;
+  }
+
+  .BuyCall {
+    margin-right: 60px;
+  }
+
+  .nav {
+    height: 100%;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 270px;
+    background-color: #FFF;
+    position: fixed;
+    border-bottom: 1px solid #FFF;
+    z-index: 80;
+    transform: translateX(270px);
+    transition: .2s;
+  }
+
+  .BuyCallburg {
+    display: block;
+  }
+
+  .NavSpis {
+    padding-top: 50px;
+    display: block;
+  }
+
+  .NavItem {
+    border: none;
+  }
+
+  .Header__bot {
+    padding-top: 100px;
+  }
+
+  .Header__bot::after {
+    top: 5.3%;
+  }
+
+  .Header__bot::before {
+    top: 5.3%;
+  }
+
+  .Services {
+    padding: 100px 0;
+  }
+
+  .Services__spis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-template-areas:
+      "A B C D"
+      "E E E E";
+  }
+
+  .Services__item:last-child {
+    grid-area: E;
+  }
+
+  .OurWorck {
+    padding: 100px 0;
+  }
+
+  .Furniture {
+    padding: 100px 0;
+  }
+
+  .Furniture__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-template-areas:
+      "A B C"
+      "E E E";
+  }
+
+  .Furniture__item:last-child {
+    grid-area: E;
+  }
+
+  .WhatWeOffer {
+    padding: 100px 0;
+  }
+
+  .WhatWeOffer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-areas:
+      "A B"
+      "C D"
+      "E F"
+      "G H"
+      "I I";
+  }
+
+  .WhatWeOffer__item:last-child {
+    grid-area: I;
+  }
+
+  .Questions {
+    padding: 100px 0;
+  }
+
+  .active {
+    max-height: 100%;
+  }
+
+  .footer {
+    padding-top: 100px 0;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__contact {
+    margin-top: 70px;
+    margin-right: 0;
+    order: 2;
+  }
+
+}

@@ -1,0 +1,448 @@
+@media (max-width: 695px) {
+  body, html {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 24px;
+    white-space: normal;
+    line-height: 1.5;
+  }
+
+  .Modal_button {
+    transform: scale(0.5);
+    margin-left: auto;
+    top: 10px;
+    right: 9px;
+  }
+
+  .name2::placeholder, .tel2::placeholder {
+    font-size: 16px;
+  }
+
+  .form__text2 {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  .confidance2 {
+    font-size: 12px;
+  }
+
+  .modal_title {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0 auto 15px;
+  }
+
+  .modal_parag, .modal_parag2 {
+    font-size: 14px;
+    line-height: 1.43;
+    margin: 30px 0 15px;
+    width: 212px;
+    margin: 0 auto;
+  }
+
+  .modal_parag2 {
+    width: auto;
+    margin: 20px 0 0;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    width: 318px;
+    height: 48px;
+    font-size: 16px;
+
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .mainLine {
+    padding: 16px 0;
+  }
+
+  .logo {
+    max-width: 146px;
+    height: 23px;
+    background: url("../img/icon/Logo.svg") 0 0/145px 23px no-repeat;
+    margin: 0;
+  }
+
+  .tel {
+    transform: translate(-35px, 10%);
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .BuyCallburg {
+    display: block;
+  }
+
+  .burger {
+    right: 10px;
+    top: 5px;
+  }
+
+  .Header__bot {
+    padding: 100px 0;
+    background: url("../img/big_img/Background/HeaderBack.jpg")no-repeat;
+    height: 640px;
+    margin: 0 auto;
+    background-size: cover;
+  }
+
+  .Header__title {
+    line-height: 1.54;
+    font-size: 26px;
+    width: 278px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .Header__price {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .Header__line {
+    margin-top: 265px;
+  }
+
+  .Services {
+    padding: 60px 0 45px;
+  }
+
+  .Services__title {
+    margin-bottom: 30px;
+  }
+
+  .Services__spis {
+    gap: 15px 0px;
+    margin-bottom: 0;
+  }
+
+  .Services__item {
+    padding: 5px 12px 16px;
+  }
+
+  .Services__item img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .OurWorck {
+    padding: 60px 0;
+  }
+
+  .OurWorck__title {
+    text-align: left;
+    white-space: nowrap;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .BTN1, .BTN2 {
+    height: 32px;
+    width: 32px;
+    margin-left: 15px;
+  }
+
+  .BTN1 svg, .BTN2 svg {
+    margin: 0;
+  }
+
+  .BTN1 {
+    margin-left: 0;
+  }
+
+  .swiper-container {
+    max-width: 100%;
+  }
+
+  .swiper-slide {
+    opacity: 1;
+  }
+
+  .swiper-slide-active {
+    opacity: 1;
+  }
+
+  .item1, .item2 {
+    flex-direction: column;
+    display: flex;
+    max-width: 318px;
+    height: 600px;
+  }
+
+  .OurWorck__item1_ImgBox {
+    width: 318px;
+    height: 400px;
+    order: 2;
+  }
+
+  .item1__img1 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .DOPOSLE {
+    transform: translate(7px, 156px);
+  }
+
+  .item1__img2 {
+    height: 200px;
+    width: 100%;
+  }
+
+  .OurWorck__item1_content {
+    margin: 0 0 25px 0;
+  }
+
+  .item1__title {
+    margin: 0 0 15px;
+    align-items: center;
+    display: flex;
+  }
+
+  .item1__title svg, .OurWorck__item2_content svg {
+    display: inline;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+  }
+
+  .item1__title svg {
+    margin-right: 15px;
+  }
+
+  .item__title {
+    font-size: 18px;
+    margin: 0;
+    line-height: 27px;
+    white-space: nowrap;
+    width: auto;
+    display: inline;
+  }
+
+  .item__text {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+  }
+
+  .item2 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item2__ImgBox {
+    order: 2;
+  }
+
+  .OurWorck__item2_content {
+    margin: 0 0 15px 0;
+  }
+
+  .item3 {
+    width: 318px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .item3__ImgBox {
+    width: 318px;
+    background-size: 100% 100%;
+    order: 2;
+  }
+
+  .OurWorck__item3_content {
+    margin: 0;
+  }
+
+  .viewProject {
+    width: 130px;
+    height: 130px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 10px;
+  }
+
+  .swiper-pagination {
+    margin-top: 30px;
+  }
+
+  .Furniture {
+    padding: 60px 0;
+  }
+
+  .Furniture__title {
+    margin-bottom: 30px;
+  }
+
+  .Furniture__inner {
+    gap: 15px 0;
+    margin-bottom: 30px;
+  }
+
+  .Furniture__item {
+    padding: 5px 12px 16px;
+  }
+
+  .Furniture__item img {
+    height: 128px;
+    width: 128px;
+    margin-bottom: 0;
+  }
+
+  .Furniture__item_name {
+    margin-bottom: 10px;
+  }
+
+  .Furniture__item_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .WhatWeOffer {
+    padding: 60px 0;
+  }
+
+  .WhatWeOffer__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .WhatWeOffer__content {
+    gap: 15px;
+  }
+
+  .Questions {
+    padding: 60px 0;
+  }
+
+  .Questions__item {
+    margin-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .Questions__item:nth-child(5), .Questions__item:nth-child(6) {
+    margin-bottom: 25px;
+  }
+
+  .active {
+    max-height: 100%;
+  }
+
+  .Questions__item_title {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .Questions__item_button {
+    transform: scale(0.8);
+  }
+
+  .Bactive {
+    transform: scale(0.8) rotate(45deg);
+  }
+
+  .footer {
+    padding-top: 60px;
+  }
+
+  .footer__inner {
+    margin-bottom: 40px;
+  }
+
+  .footer__contact {
+    margin-top: 60px;
+  }
+
+  .footer__MSG_item {
+    transform: scale(0.8);
+    margin: 0;
+  }
+
+  .footer__telMSG {
+    margin-bottom: 15px;
+  }
+
+  .footer__tel {
+    font-size: 18px;
+  }
+
+  .footer__Email {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .footer__address {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+
+  .footer__asaid {
+    width: 319px;
+  }
+
+  .asaid__title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .asaid__parag {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .MASSAGE::placeholder, .TEL::placeholder, .NAME::placeholder {
+    font-size: 16px;
+  }
+
+  .form__text {
+    line-height: 1.5;
+  }
+
+  .footer__bot_content {
+    display: block;
+  }
+
+  .copyrathing {
+    display: block;
+  }
+
+  .Polit {
+    display: block;
+    margin: 0;
+  }
+
+  .footer__line {
+    display: none;
+  }
+
+  #map {
+    width: 320px;
+    height: 270px;
+  }
+
+  .modbtn2 {
+    width: 280px;
+    height: 48px;
+    padding: 0;
+  }
+}
