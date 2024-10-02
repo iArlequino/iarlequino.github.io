@@ -1,0 +1,18 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variabales.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* components imports */
+@import "components/_header.css";
+@import "components/_first.css";
+@import "components/_become.css";
+@import "components/_featured.css";
+@import "components/_featuredVideos.css";
+@import "components/_newsletter.css";
+@import "components/_inspirations.css";
+@import "components/_footer.css";
+@import "components/_media.css";
+@import "components/_modal.css";
